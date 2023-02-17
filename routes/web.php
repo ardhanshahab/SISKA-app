@@ -19,4 +19,7 @@ Route::get('/', function () {
 Route::get('/kurikulum', function () {
     return view('kurikulum/kurikulum');
 });
+Route::get('/mahasiswa', function () {
+    return view('mahasiswa/layouts/index');
+});
 
